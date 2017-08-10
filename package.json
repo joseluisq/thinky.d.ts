@@ -1,6 +1,6 @@
 {
   "name": "thinky.d.ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Thinky.io ORM definitions for Typescript",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,13 @@
     "db"
   ],
   "dependencies": {
-    "thinky" : "*"  
+    "thinky": "^2.3.8",
+    "typescript": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.8",
+    "@types/node": "^8.0.20",
+    "tslint": "^5.6.0"
   },
   "author": "tomymolina",
   "license": "ISC"
